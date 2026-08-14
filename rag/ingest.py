@@ -9,8 +9,8 @@ from langchain_text_splitters import RecursiveCharacterTextSplitter
 from rag.config import get_embeddings
 
 INDEX_PATH = "faiss_index"
-CHUNK_SIZE = 400
-CHUNK_OVERLAP = 50
+CHUNK_SIZE = 900
+CHUNK_OVERLAP = 150
 
 
 def make_chunk_id(chunk) -> str:
